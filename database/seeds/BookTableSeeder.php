@@ -20,7 +20,7 @@ class BookTableSeeder extends Seeder
                 'writer' => "サンプル作者 {$num}",
                 'description' => "これはサンプルです。",
                 'due_date' => Carbon::now()->addDay(14),
-                'status' => $num,
+                'status' => 1,
                 'created_at' => Carbon::now(),
                 'updated_at' => Carbon::now(),
             ]);
